@@ -1,0 +1,19 @@
+[project]
+name = "echo-cli"
+version = "0.1.0"
+description = "Record what you say and play it back for pronunciation practice."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "sounddevice",
+]
+
+[dependency-groups]
+dev = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["echo_cli"]

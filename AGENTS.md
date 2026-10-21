@@ -20,4 +20,9 @@ Keep the project focused on these features.
 
 ## Project status
 
-Python is the chosen language. Audio libraries and implementation details are still to be decided.
+- Python as the programming language
+- TUI for user interaction
+- pyproject.toml for project configuration
+- pytest for testing
+- use `uv`
+
